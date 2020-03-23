@@ -1,0 +1,21 @@
+
+interface CartItemInterface {
+     mp_stock_status: MpStockStatusCartItem @resolver(class: "Mageplaza\\StockStatusGraphQl\\Model\\Resolver\\QuoteItem\\StockStatus") @doc(description: "Stock status apply cart")
+}
+
+interface ProductInterface {
+    mp_stock_status : MpStockStatus @resolver(class: "Mageplaza\\StockStatusGraphQl\\Model\\Resolver\\Product\\StockStatus") @doc(description: "Stock status attributes")
+}
+
+type MpStockStatus {
+    label: String @doc(description: "Stock status label")
+    image: String @doc(description: "Stock status image")
+    is_apply_child: Boolean @doc(description: "Is Apply Child")
+
+}
+
+type MpStockStatusCartItem {
+    label: String @doc(description: "Stock status label")
+    image: String @doc(description: "Stock status image")
+
+}
