@@ -1,4 +1,4 @@
-# Stock Status GraphQL
+# Magento 2 Stock Status GraphQL
 Mageplaza Stock Status Extension supports getting and pushing data on the website with GraphQl.
 
 ## How to install
