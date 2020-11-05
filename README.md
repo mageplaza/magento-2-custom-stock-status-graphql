@@ -1,4 +1,4 @@
-# Magento 2 Custom Stock Status GraphQL
+# Magento 2 Custom Stock Status GraphQL/PWA
 
 [Mageplaza Custom Stock Status for Magento 2](https://www.mageplaza.com/magento-2-custom-stock-status/) is a useful tool to inform customers about the products' availability. 
 
