@@ -1,4 +1,4 @@
-# Magento 2 Custom Stock Status GraphQL/PWA
+# Magento 2 Custom Stock Status GraphQL
 
 **Magento Custom Stock Status GraphQL is a part of Mageplaza Custom Stock Status extension that adds GraphQL features, this supports for PWA studio.** Mageplaza Custom Stock Status Extension now supports getting and pushing data on the website with GraphQL.
 
